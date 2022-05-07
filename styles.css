@@ -22,19 +22,53 @@ section {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 25px;
-
 }
+
+.social {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.office {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.contact {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.social-list {
+    padding: 10px;
+    font-weight: lighter;
+    color: dimgray;
+}
+
+.office-list {
+    padding: 10px;
+    font-weight: lighter;
+    color: dimgray;
+}
+
+.contact-form {
+    padding: 10px;
+    font-weight: lighter;
+    color: dimgray;
+}
+
 article {
     width: 270px;
     height: 374px;
     color: black;
-    font: bold;
+    font-weight: bold;
     background-color: #d3d3d3;
 }
 
 p {
     justify-content: space-around;
-    }
+}
+
 
 
 
