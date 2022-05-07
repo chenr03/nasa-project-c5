@@ -19,7 +19,6 @@ main {
 section {
     display: flex;
     height: 374px;
-    text-align: ;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 25px;
@@ -30,11 +29,12 @@ article {
     height: 374px;
     color: black;
     font: bold;
-    background-color: lightgrey;
+    background-color: #d3d3d3;
+}
 
 p {
     justify-content: space-around;
     }
 
-}
+
 
