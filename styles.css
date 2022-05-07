@@ -1,0 +1,17 @@
+main {
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/18/14/17/cassiopeia-2515913__340.jpg");
+    color: #ffffff;
+}
+
+section {
+    display: flex;
+}
+article {
+    width: 270px;
+    height: 374px;
+    bacground-color: rgb(224, 222, 222);
+}
+
