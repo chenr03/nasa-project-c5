@@ -3,6 +3,10 @@ body{
     width: 850px;
 }
 
+h1{
+    margin-top: 175px;
+}
+
 main {
     height: 450px;
     display: flex;
@@ -18,43 +22,31 @@ main {
 
 section {
     display: flex;
-    height: 374px;
+    height: 324px;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 25px;
 }
 
-.social {
-    padding: 10px;
+.title {
+    padding: 35px;
     font-weight: bold;
 }
 
-.office {
-    padding: 10px;
-    font-weight: bold;
-}
-
-.contact {
-    padding: 10px;
-    font-weight: bold;
-}
-
-.social-list {
-    padding: 10px;
-    font-weight: lighter;
-    color: dimgray;
-}
-
-.office-list {
-    padding: 10px;
+.list {
     font-weight: lighter;
     color: dimgray;
 }
 
 .contact-form {
-    padding: 10px;
+    padding-top: 10px;
     font-weight: lighter;
     color: dimgray;
+}
+
+.message-input{
+    display: inline-block;
+    padding: 30px 2px;
 }
 
 article {
@@ -69,6 +61,9 @@ p {
     justify-content: space-around;
 }
 
-
-
-
+.button {
+    padding: 05px 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #373737;
+}
